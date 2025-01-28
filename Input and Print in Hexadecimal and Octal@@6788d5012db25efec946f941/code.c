@@ -2,6 +2,7 @@
 int main(){
 int num;
 scanf("%d",num);
-printf(" Hexadecimal: %x\nOctal: %o",num);
+printf("Hexadecimal: %x",num);
+printf("Octal: %o",num);
 
 }
