@@ -6,12 +6,12 @@ int main(){
         printf("%c",ch);
     }
     else if('a'<=ch<='z'){
-        printf("Consonant")
+        printf("Consonant");
     }
     else if ('1'<=ch<='9'){
         print("Digit");
     }
     else(){
-        printf("Special Character")
+        printf("Special Character");
     }
 }
