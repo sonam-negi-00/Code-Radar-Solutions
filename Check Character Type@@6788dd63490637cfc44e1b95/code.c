@@ -2,8 +2,8 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if (ch=='a' ||ch=='i'||ch=='o'||ch=='u'||ch=='e'){
-        printf("%c",ch);
+    if (ch=='a' ||ch=='i'||ch=='o'||ch=='u'||ch=='e')||(ch=='A'||ch=='I'||ch=='O'||ch=='U'||ch=='E'){
+        printf("Vowel");
     }
     else if('a'<=ch<='z' || 'A'<=ch<='Z'){
         printf("Consonant");
