@@ -9,5 +9,5 @@ int main(){
         default: printf("Invalid \n");
 
     }
-    retrun 0;
+    return 0;
 }
