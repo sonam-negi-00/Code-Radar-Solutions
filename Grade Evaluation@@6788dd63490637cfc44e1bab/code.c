@@ -3,7 +3,7 @@ int main(){
     char ch;
     scanf("%c",&ch);
     if(ch=='E'){
-        printf("Invalid grade")
+        printf("Invalid grade");
     }
     else if ('A'<=ch &&ch<='F'){
         switch(ch){
