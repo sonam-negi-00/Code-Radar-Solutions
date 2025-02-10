@@ -5,7 +5,7 @@ int main(){
     int msb;
     scanf("%lld",&num);
     bits=sizeof(num)*8;
-    msb = (num>>(n=bits - 1)) & 1;
+    msb = (num>>(bits - 1)) & 1;
     if (msb==1){
         printf("Set");
 
