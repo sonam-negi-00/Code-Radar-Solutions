@@ -2,7 +2,10 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if ('A'<=ch &&ch<='F'){
+    if(ch=='E'){
+        printf("Invalid grade")
+    }
+    else if ('A'<=ch &&ch<='F'){
         switch(ch){
             case 'A':printf("Excellent");break;
             case 'B':printf("Good");break;
