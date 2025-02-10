@@ -3,13 +3,13 @@ int main(){
     int day;
     scanf("%d",&day);
     switch(day){
-        case1: printf("Sunday \n");break;
-        case2: printf("Monday \n");break;
-        case3: printf("Tuesday \n"); break;
-        case4: printf("Wednusday \n"); break;
-        case5: printf("Thursday \n"); break;
-        case6: printf("Friday \n"); break;
-        case7: printf("Saturday \n"); break;
+        case 1: printf("Sunday \n");break;
+        case 2: printf("Monday \n");break;
+        case 3: printf("Tuesday \n"); break;
+        case 4: printf("Wednusday \n"); break;
+        case 5: printf("Thursday \n"); break;
+        case 6: printf("Friday \n"); break;
+        case 7: printf("Saturday \n"); break;
         default:printf("Invalid");
     }
     return 0;
