@@ -4,18 +4,24 @@ int main(){
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
     if (ch=='*'){
-        printf("%d",a*b);
+        printf("%d \n",a*b);
     }
     else if(ch=='+'){
-        printf("%d",a+b);
+        printf("%d \n",a+b);
         }
     else if(ch=='-'){
-        printf("%d",a-b);
+        printf("%d \n" ,a-b);
         }
     else if(ch=='/'){
-        printf("%d",a/b);
+        if(b!=0){
+
+        
+        printf("%d \n",a/b);}
+        else{
+            printf("error:division by zero\n")
+        }
     }
     else{
-        printf("error");
+        printf("error \n");
     }
 }
