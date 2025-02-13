@@ -27,6 +27,6 @@ int main(){
 
     }
     bubbleSort(arr,n);
-    printfArray(arr,n);
+    printArray(arr,n);
     return 0;
 }
