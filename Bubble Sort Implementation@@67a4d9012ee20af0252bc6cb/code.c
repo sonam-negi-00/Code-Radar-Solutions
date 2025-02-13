@@ -16,7 +16,7 @@ void printArray(int arr[],int n){
         if(i<n-1)printf(" ");
 
     }
-    printf("\n")
+    printf("\n");
 }
 int main(){
     int n;
