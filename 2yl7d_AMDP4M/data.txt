@@ -1,1 +1,1 @@
-[{"index":2,"id":"67b0eb4a17930522cbe25a10","title":"Output of bitwise operations in C","correctAnswer":"32,32,32,32,0","selectedOption":"32,32,32,32,0","isCorrect":true,"type":"MCQ"}]
+[{"index":2,"id":"67b0eb4a17930522cbe25a10","title":"Output of bitwise operations in C","correctAnswer":"32,32,32,32,0","selectedOption":"32,32,32,32,0","isCorrect":true,"type":"MCQ"},{"index":4,"id":"67b0eb4a17930522cbe25a12","title":"Non-logical operator identification","correctAnswer":"&","selectedOption":"&","isCorrect":true,"type":"MCQ"}]
